@@ -1,0 +1,15 @@
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.csproj.AssemblyReference.cache
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.AssemblyInfoInputs.cache
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.AssemblyInfo.cs
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.csproj.CoreCompileInputs.cache
+C:\Users\MDT-516\Desktop\Non 1070 GDM\bin\Debug\net6.0\Non 1070 GDM.exe
+C:\Users\MDT-516\Desktop\Non 1070 GDM\bin\Debug\net6.0\Non 1070 GDM.deps.json
+C:\Users\MDT-516\Desktop\Non 1070 GDM\bin\Debug\net6.0\Non 1070 GDM.runtimeconfig.json
+C:\Users\MDT-516\Desktop\Non 1070 GDM\bin\Debug\net6.0\Non 1070 GDM.dll
+C:\Users\MDT-516\Desktop\Non 1070 GDM\bin\Debug\net6.0\Non 1070 GDM.pdb
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.dll
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\refint\Non 1070 GDM.dll
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.pdb
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\Non 1070 GDM.genruntimeconfig.cache
+C:\Users\MDT-516\Desktop\Non 1070 GDM\obj\Debug\net6.0\ref\Non 1070 GDM.dll

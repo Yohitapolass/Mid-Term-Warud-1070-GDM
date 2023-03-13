@@ -1,4 +1,5 @@
-﻿using system;
+﻿using System;
+
 namespace Delivery{
     class Grabfood{
         static void Main(string[] args){
@@ -6,9 +7,37 @@ namespace Delivery{
             Console.Write("Please Enter Your Day of week : ");
             int day = int.Parse(Console.ReadLine());
 
+            Console.Write("Please Enter your current time : ");
+            int time = int.Parse(Console.ReadLine());
+
+            Console.Write("Please Enter your order : ");
+            string order = (Console.ReadLine());
+
+            int BF = 5;
+            int WS = 2;
+            int CF = 3;
+
+            switch(order) {
+            case "Breakfast Set":
+                
+                
+                break;
+            case "Weekend Set":
+                
+
+                break;
+            case "Coffee":
+                
+
+                break;    
+            default:
+                Console.WriteLine("incorrect");
+                break;
+
+
             
 
-
+            }
         }
     }
 }
