@@ -27,12 +27,14 @@ namespace Delivery{
                     if(BF > 0){
                         Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
-                        if(BF <= 0){
-                        Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
+                    } if(BF <= 0){
+
+                        Console.WriteLine("Sorry your order is out of stock!");
+                        
                         }
-                }
+                
                  
                 }
 
@@ -41,6 +43,7 @@ namespace Delivery{
                         Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
                         if(WS <= 0){
+
                         Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
@@ -54,6 +57,7 @@ namespace Delivery{
                         Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
                         if(CF <= 0){
+
                         Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
@@ -61,5 +65,5 @@ namespace Delivery{
                 }
                    
                 }
-                Console.Write("Please enter a valid menu");
+                Console.WriteLine("Please enter a valid menu");
             }}}}               
