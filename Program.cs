@@ -24,12 +24,16 @@ namespace Delivery{
                 order = (Console.ReadLine());
 
                 while(order == "Breakfast Set"){
-                    if(BF > 0){
+                    if(time > 11){
+                        Console.WriteLine("Sorry your order is not available");
+                    } if(BF > 0 && time < 11){
                         Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
-                    } if(BF <= 0){
+                    }
+                    
+                    if(BF <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
                         
@@ -41,7 +45,7 @@ namespace Delivery{
                 if(order == "Weekend Set"){
                         if(WS > 0){
                         Console.WriteLine("Your Order is Correct!");
-                        BF -= 1;
+                        WS -= 1;
                         if(WS <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
@@ -55,7 +59,7 @@ namespace Delivery{
                 if(order =="Coffee"){
                         if(CF > 0){
                         Console.WriteLine("Your Order is Correct!");
-                        BF -= 1;
+                        CF -= 1;
                         if(CF <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
