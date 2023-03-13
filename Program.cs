@@ -19,7 +19,14 @@ namespace Delivery{
 
             switch(order) {
             case "Breakfast Set":
-                
+
+                while(BF > 0){
+                   Console.Write("Your Order is Correct!");
+                   BF -= 1;
+                   return Console.Write("Please Enter your order : ");
+            string order = (Console.ReadLine());
+                   
+                }
                 
                 break;
             case "Weekend Set":
