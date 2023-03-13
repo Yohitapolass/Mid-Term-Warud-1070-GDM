@@ -26,6 +26,8 @@ namespace Delivery{
                 while(order == "Breakfast Set"){
                     if(time > 11){
                         Console.WriteLine("Sorry your order is not available");
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
                     } if(BF > 0 && time < 11){
                         Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
@@ -36,37 +38,52 @@ namespace Delivery{
                     if(BF <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
-                        
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
                         }
                 
                  
                 }
 
                 if(order == "Weekend Set"){
-                        if(WS > 0){
+                        if(day = 1 || day = 2 || day = 3 ||day = 4 || day = 5 ){
+                        Console.WriteLine("Sorry your order is not available");
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                    } if(WS > 0 && day = 6 || day = 7 ){
                         Console.WriteLine("Your Order is Correct!");
                         WS -= 1;
-                        if(WS <= 0){
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                    }
+                    
+                    if(BF <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
                         }
-                }
                 
                 }
 
                 if(order =="Coffee"){
-                        if(CF > 0){
+                        if(time > 11){
+                        Console.WriteLine("Sorry your order is not available");
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                    } if(BF > 0 && time < 11){
                         Console.WriteLine("Your Order is Correct!");
-                        CF -= 1;
-                        if(CF <= 0){
+                        BF -= 1;
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                    }
+                    
+                    if(BF <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
                         }
-                }
                    
                 }
                 Console.WriteLine("Please enter a valid menu");
