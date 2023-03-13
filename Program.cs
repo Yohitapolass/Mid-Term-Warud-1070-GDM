@@ -13,12 +13,15 @@ namespace Delivery{
              //Console.Write("Please Enter your order : ");
             //string order = (Console.ReadLine());
 
+            Console.Write("Please Enter your order : ");
+            string order = string.Parse(Console.ReadLine());
+
             int BF = 5;
             int WS = 2;
             int CF = 3;
 
             while(day > 0 && time > 0 ){
-                string order = (Console.ReadLine());
+                
 
                 if(order = "Breakfast Set"){
                         Console.Write("Your Order is Correct!");
@@ -34,21 +37,4 @@ namespace Delivery{
                         Console.Write("Your Order is Correct!");
                         BF -= 1;
                 }
-
-            while(day > 0 && time > 0 ){
-
-                    
-                   
-                   
-                   
-                   
-                   
-                }
-
-            
-
-            
-
-            }
-        }
-    }
+            }}}}               
