@@ -23,9 +23,17 @@ namespace Delivery{
                 Console.Write("Please Enter your order : ");
                 order = (Console.ReadLine());
 
-                if(order == "Breakfast Set"){
-                        Console.Write("Your Order is Correct!");
+                while(order == "Breakfast Set"){
+                    if(BF > 0){
+                        Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
+                        if(BF <= 0){
+                        Console.WriteLine("Sorry your order is out of stock!");
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                        }
+                }
+                    
                 }
 
                 if(order == "Weekend Set"){
