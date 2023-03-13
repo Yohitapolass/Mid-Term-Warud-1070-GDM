@@ -33,16 +33,33 @@ namespace Delivery{
                         order = (Console.ReadLine());
                         }
                 }
-                    
+                 
                 }
 
                 if(order == "Weekend Set"){
-                        Console.Write("Your Order is Correct!");
+                        if(WS > 0){
+                        Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
+                        if(WS <= 0){
+                        Console.WriteLine("Sorry your order is out of stock!");
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                        }
+                }
+                
                 }
 
                 if(order =="Coffee"){
-                        Console.Write("Your Order is Correct!");
+                        if(CF > 0){
+                        Console.WriteLine("Your Order is Correct!");
                         BF -= 1;
+                        if(CF <= 0){
+                        Console.WriteLine("Sorry your order is out of stock!");
+                        Console.Write("Please Enter your order : ");
+                        order = (Console.ReadLine());
+                        }
                 }
+                   
+                }
+                Console.Write("Please enter a valid menu");
             }}}}               
