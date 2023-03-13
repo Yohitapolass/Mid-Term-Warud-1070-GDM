@@ -46,18 +46,18 @@ namespace Delivery{
                 }
 
                 if(order == "Weekend Set"){
-                        if(day = 1 || day = 2 || day = 3 ||day = 4 || day = 5 ){
+                        if((day = 1)&&(day = 2)&&(day = 3)&&(day = 4)&&(day = 5)){
                         Console.WriteLine("Sorry your order is not available");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
-                    } if(WS > 0 && day = 6 || day = 7 ){
+                    } if(WS > 0 && (day = 6 )&&(day = 7)){
                         Console.WriteLine("Your Order is Correct!");
                         WS -= 1;
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
                     }
                     
-                    if(BF <= 0){
+                    if(WS <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
@@ -67,23 +67,23 @@ namespace Delivery{
                 }
 
                 if(order =="Coffee"){
-                        if(time > 11){
-                        Console.WriteLine("Sorry your order is not available");
-                        Console.Write("Please Enter your order : ");
-                        order = (Console.ReadLine());
-                    } if(BF > 0 && time < 11){
+                        if(CF > 0 && time > 0){
                         Console.WriteLine("Your Order is Correct!");
-                        BF -= 1;
+                        CF -= 1;
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
                     }
                     
-                    if(BF <= 0){
+                    if(CF <= 0){
 
                         Console.WriteLine("Sorry your order is out of stock!");
                         Console.Write("Please Enter your order : ");
                         order = (Console.ReadLine());
                         }
+                   
+                }
+                if(order =="End"){
+                        return;
                    
                 }
                 Console.WriteLine("Please enter a valid menu");
