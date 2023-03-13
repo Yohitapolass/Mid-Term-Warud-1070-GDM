@@ -2,7 +2,7 @@
 
 namespace Delivery{
     class Grabfood{
-        static void Main(string[] args){
+        static void Main(string  [] args){
 
             Console.Write("Please Enter Your Day of week : ");
             int day = int.Parse(Console.ReadLine());
@@ -14,7 +14,7 @@ namespace Delivery{
             //string order = (Console.ReadLine());
 
             Console.Write("Please Enter your order : ");
-            string order = string.Parse(Console.ReadLine());
+            string order = Console.ReadLine();
 
             int BF = 5;
             int WS = 2;
@@ -22,6 +22,8 @@ namespace Delivery{
 
             while(day > 0 && time > 0 ){
                 
+                Console.Write("Please Enter your order : ");
+                order = (Console.ReadLine());
 
                 if(order = "Breakfast Set"){
                         Console.Write("Your Order is Correct!");
