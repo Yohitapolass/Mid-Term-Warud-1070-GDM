@@ -10,16 +10,37 @@ namespace Delivery{
             Console.Write("Please Enter your current time : ");
             int time = int.Parse(Console.ReadLine());
 
+             //Console.Write("Please Enter your order : ");
+            //string order = (Console.ReadLine());
+
             int BF = 5;
             int WS = 2;
             int CF = 3;
 
-            while(order == "Breakfast Set"){
-
-                   Console.Write("Your Order is Correct!");
-                   Console.Write("Please Enter your order : ");
+            while(day > 0 && time > 0 ){
                 string order = (Console.ReadLine());
-                   BF -= 1;
+
+                if(order = "Breakfast Set"){
+                        Console.Write("Your Order is Correct!");
+                        BF -= 1;
+                }
+
+                if(order = "Weekend Set"){
+                        Console.Write("Your Order is Correct!");
+                        BF -= 1;
+                }
+
+                if(order = "Coffee"){
+                        Console.Write("Your Order is Correct!");
+                        BF -= 1;
+                }
+
+            while(day > 0 && time > 0 ){
+
+                    
+                   
+                   
+                   
                    
                    
                 }
