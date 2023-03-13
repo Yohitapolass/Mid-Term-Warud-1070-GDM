@@ -12,9 +12,7 @@ namespace Delivery{
 
              //Console.Write("Please Enter your order : ");
             //string order = (Console.ReadLine());
-
-            Console.Write("Please Enter your order : ");
-            string order = Console.ReadLine();
+            string order; 
 
             int BF = 5;
             int WS = 2;
@@ -25,17 +23,17 @@ namespace Delivery{
                 Console.Write("Please Enter your order : ");
                 order = (Console.ReadLine());
 
-                if(order = "Breakfast Set"){
+                if(order == "Breakfast Set"){
                         Console.Write("Your Order is Correct!");
                         BF -= 1;
                 }
 
-                if(order = "Weekend Set"){
+                if(order == "Weekend Set"){
                         Console.Write("Your Order is Correct!");
                         BF -= 1;
                 }
 
-                if(order = "Coffee"){
+                if(order =="Coffee"){
                         Console.Write("Your Order is Correct!");
                         BF -= 1;
                 }
